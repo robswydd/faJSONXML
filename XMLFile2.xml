@@ -1,0 +1,1511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <ProcessOperationsResult xmlns="http://www.confirm.co.uk/schema/am/connector/webservice">
+      <Response SchemaVersion="1.4" xmlns="">
+        <OperationResponse>
+          <RequestId>1</RequestId>
+          <GetEnquiryLookupsResponse>
+            <TypeOfService>
+              <ServiceCode>DEVC</ServiceCode>
+              <ServiceName>Development Control</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>DC99</SubjectCode>
+                <SubjectName>General</SubjectName>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>GRND</ServiceCode>
+              <ServiceName>Grounds Maintenance</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>GA01</SubjectCode>
+                <SubjectName>Building problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>GG01</SubjectCode>
+                <SubjectName>Flower bed problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>GG02</SubjectCode>
+                <SubjectName>Grass cutting problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>GA02</SubjectCode>
+                <SubjectName>Lifebelt problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>GG99</SubjectCode>
+                <SubjectName>Other</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>GG03</SubjectCode>
+                <SubjectName>Path problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>GA03</SubjectCode>
+                <SubjectName>Play equipment issue</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>GS01</SubjectCode>
+                <SubjectName>Septic tank emptying</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>GG04</SubjectCode>
+                <SubjectName>Standing water</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>GG05</SubjectCode>
+                <SubjectName>Tree problem</SubjectName>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>HMG</ServiceCode>
+              <ServiceName>Highway Maintenance General</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>MB02</SubjectCode>
+                <SubjectName>Barrier:pedestrian:defective</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MB01</SubjectCode>
+                <SubjectName>Barrier:vehicular:defective</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MG05</SubjectCode>
+                <SubjectName>Bollard:dirty</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MG04</SubjectCode>
+                <SubjectName>Bollard:missing/defective</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MC01</SubjectCode>
+                <SubjectName>Carriageway:pothole</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MC02</SubjectCode>
+                <SubjectName>Carriageway:surface problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MD02</SubjectCode>
+                <SubjectName>Ditch:blocked</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MD01</SubjectCode>
+                <SubjectName>Drain:blocked</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MD03</SubjectCode>
+                <SubjectName>Flood</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MF03</SubjectCode>
+                <SubjectName>Footway: overgrown/weeds</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MF01</SubjectCode>
+                <SubjectName>Footway:pothole</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MF02</SubjectCode>
+                <SubjectName>Footway:surface problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MC04</SubjectCode>
+                <SubjectName>Fuel Spillage</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MV02</SubjectCode>
+                <SubjectName>Grass problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MI01</SubjectCode>
+                <SubjectName>Ironwork:defective</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MI03</SubjectCode>
+                <SubjectName>Ironwork:high/low</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MI02</SubjectCode>
+                <SubjectName>Ironwork:missing</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MK01</SubjectCode>
+                <SubjectName>Kerb problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MO02</SubjectCode>
+                <SubjectName>Litter</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MC03</SubjectCode>
+                <SubjectName>Loose chippings/debris in c/w</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MS02</SubjectCode>
+                <SubjectName>Markings:missing/defective</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MO01</SubjectCode>
+                <SubjectName>Other</SubjectName>
+                <SubjectNotes>When no other applies</SubjectNotes>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MA01</SubjectCode>
+                <SubjectName>RTC Attendance</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MG03</SubjectCode>
+                <SubjectName>Sign:dirty</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MG01</SubjectCode>
+                <SubjectName>Sign:missing/defective</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MG02</SubjectCode>
+                <SubjectName>Sign:obscured</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MS01</SubjectCode>
+                <SubjectName>Stud:missing/defective</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MV03</SubjectCode>
+                <SubjectName>Trees/Shrubs problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MV01</SubjectCode>
+                <SubjectName>Verge problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MD04</SubjectCode>
+                <SubjectName>Water:standing</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>MZ01</SubjectCode>
+                <SubjectName>Zebra Crossing: defective</SubjectName>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>HME</ServiceCode>
+              <ServiceName>Highways Act Administration</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>HE11</SubjectCode>
+                <SubjectName>Application - Road Closure</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE10</SubjectCode>
+                <SubjectName>Application -Temp Traff Lights</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE05</SubjectCode>
+                <SubjectName>Dangerous Tree</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE03</SubjectCode>
+                <SubjectName>Encroachment of Highway</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE13</SubjectCode>
+                <SubjectName>Highway Boundary Query</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE07</SubjectCode>
+                <SubjectName>Licence:Scaffold</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE06</SubjectCode>
+                <SubjectName>Licence:Skip</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE01</SubjectCode>
+                <SubjectName>Mud/Other on Highway</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE99</SubjectCode>
+                <SubjectName>Other</SubjectName>
+                <SubjectNotes>When no other applies</SubjectNotes>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE04</SubjectCode>
+                <SubjectName>Overgrown Trees/Hedges</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE12</SubjectCode>
+                <SubjectName>Section 38</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE09</SubjectCode>
+                <SubjectName>Section 50</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE02</SubjectCode>
+                <SubjectName>Stones etc on Verge</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>HE08</SubjectCode>
+                <SubjectName>Vehicular Access</SubjectName>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>SL</ServiceCode>
+              <ServiceName>Lighting &amp; Illuminated Signs</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>SLBO</SubjectCode>
+                <SubjectName>Bollard :missing/defective</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>SLBR</SubjectCode>
+                <SubjectName>Burning Red</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>SLKD</SubjectCode>
+                <SubjectName>Column Knocked Down</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>SLDB</SubjectCode>
+                <SubjectName>Day Burner</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>SLEW</SubjectCode>
+                <SubjectName>Electrical</SubjectName>
+                <SubjectNotes>Include door off/open</SubjectNotes>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>SLLO</SubjectCode>
+                <SubjectName>Light Out</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>SLOT</SubjectCode>
+                <SubjectName>Other</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>SLSI</SubjectCode>
+                <SubjectName>Sign:missing/defective</SubjectName>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>NRSW</ServiceCode>
+              <ServiceName>Roads &amp; Street Works Act</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>RS02</SubjectCode>
+                <SubjectName>Electricity</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>RS01</SubjectCode>
+                <SubjectName>Gas</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>RS06</SubjectCode>
+                <SubjectName>Other</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>RS05</SubjectCode>
+                <SubjectName>Private</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>RS04</SubjectCode>
+                <SubjectName>Telecom</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>RS03</SubjectCode>
+                <SubjectName>Water</SubjectName>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>STSC</ServiceCode>
+              <ServiceName>Street Scene</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>EC01</SubjectCode>
+                <SubjectName>Abandoned vehicle</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0014</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0015</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0016</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0017</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0018</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EV01</SubjectCode>
+                <SubjectName>Anti-social behaviour</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EV02</SubjectCode>
+                <SubjectName>Broken glass</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EA05</SubjectCode>
+                <SubjectName>Dangerous Dog</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EA01</SubjectCode>
+                <SubjectName>Dead animal</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC02</SubjectCode>
+                <SubjectName>Detritus</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC03</SubjectCode>
+                <SubjectName>Dog fouling</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EA04</SubjectCode>
+                <SubjectName>Dog Found</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EA02</SubjectCode>
+                <SubjectName>Dog missing</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EA03</SubjectCode>
+                <SubjectName>Dog stray</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EE01</SubjectCode>
+                <SubjectName>Environmental Education</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EP01</SubjectCode>
+                <SubjectName>Fixed Penalty Notice</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EV03</SubjectCode>
+                <SubjectName>Fly posting</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC04</SubjectCode>
+                <SubjectName>Fly tipping</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0012</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0013</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EM01</SubjectCode>
+                <SubjectName>Furniture problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EV04</SubjectCode>
+                <SubjectName>Graffiti</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EV05</SubjectCode>
+                <SubjectName>Graffiti (Offensive)</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC05</SubjectCode>
+                <SubjectName>Hazardous waste</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC06</SubjectCode>
+                <SubjectName>Leaf clearance</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC07</SubjectCode>
+                <SubjectName>Litter</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC08</SubjectCode>
+                <SubjectName>Litter bin problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC09</SubjectCode>
+                <SubjectName>New bin request</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC10</SubjectCode>
+                <SubjectName>Off street parking problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC99</SubjectCode>
+                <SubjectName>Other</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EM02</SubjectCode>
+                <SubjectName>Pay &amp; Display machine problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EF01</SubjectCode>
+                <SubjectName>Property flooding issue</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EM03</SubjectCode>
+                <SubjectName>Public convenience problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EV06</SubjectCode>
+                <SubjectName>Removal of bonfires</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EM04</SubjectCode>
+                <SubjectName>Street name plate problem</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>EC11</SubjectCode>
+                <SubjectName>Syringes / Drug related litter</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>STRC</ServiceCode>
+              <ServiceName>Structures</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>ST01</SubjectCode>
+                <SubjectName>Bridge</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>ST02</SubjectCode>
+                <SubjectName>Cattle Grid</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>ST10</SubjectCode>
+                <SubjectName>Other</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>ST03</SubjectCode>
+                <SubjectName>Retaining Wall</SubjectName>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>TRAF</ServiceCode>
+              <ServiceName>Traffic</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>TR13</SubjectCode>
+                <SubjectName>Carriageway Markings (non TRO)</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR06</SubjectCode>
+                <SubjectName>Crossing Request</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR20</SubjectCode>
+                <SubjectName>Disabled Parking Bay Request</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR16</SubjectCode>
+                <SubjectName>Footway Request</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR12</SubjectCode>
+                <SubjectName>HGV Issue</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR30</SubjectCode>
+                <SubjectName>Major Schemes</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0011</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR09</SubjectCode>
+                <SubjectName>Mirror Request</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR99</SubjectCode>
+                <SubjectName>Non-Service Request</SubjectName>
+                <SubjectNotes>For allocation of correspondence that are not considered service requests</SubjectNotes>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR08</SubjectCode>
+                <SubjectName>Other Sign Request</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR02</SubjectCode>
+                <SubjectName>Other Traffic Management Issue</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR05</SubjectCode>
+                <SubjectName>Parking Permit Request</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR04</SubjectCode>
+                <SubjectName>Parking/Waiting Issue</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR98</SubjectCode>
+                <SubjectName>Request Follow-Up</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR18</SubjectCode>
+                <SubjectName>Request for Information</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR19</SubjectCode>
+                <SubjectName>Residents Parking Zone Request</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR01</SubjectCode>
+                <SubjectName>Speed Reduction</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR07</SubjectCode>
+                <SubjectName>Tourism Sign Request</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR11</SubjectCode>
+                <SubjectName>Traffic Restrictions</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR10</SubjectCode>
+                <SubjectName>Traffic Signals</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR97</SubjectCode>
+                <SubjectName>TRO Response</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TR17</SubjectCode>
+                <SubjectName>Visibility Issue</SubjectName>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+                </SubjectAttribute>
+                <SubjectAttribute>
+                  <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+                </SubjectAttribute>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>TSC</ServiceCode>
+              <ServiceName>Traffic Signals &amp; Crossings</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>TS03</SubjectCode>
+                <SubjectName>Damaged equipment</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TS01</SubjectCode>
+                <SubjectName>Lamp(s) out</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TS99</SubjectCode>
+                <SubjectName>Other</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TS04</SubjectCode>
+                <SubjectName>Temporary Traffic Light Fault</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>TS02</SubjectCode>
+                <SubjectName>Total failure</SubjectName>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>TRAN</ServiceCode>
+              <ServiceName>Transport Planning</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>TP99</SubjectCode>
+                <SubjectName>General</SubjectName>
+              </EnquirySubject>
+            </TypeOfService>
+            <TypeOfService>
+              <ServiceCode>WINT</ServiceCode>
+              <ServiceName>Winter Maintenance</ServiceName>
+              <EnquirySubject>
+                <SubjectCode>WT99</SubjectCode>
+                <SubjectName>Other</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>WT01</SubjectCode>
+                <SubjectName>Salt bins/piles new</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>WT02</SubjectCode>
+                <SubjectName>Salt bins/piles replenish</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>WT03</SubjectCode>
+                <SubjectName>Treatment request:carriageway</SubjectName>
+              </EnquirySubject>
+              <EnquirySubject>
+                <SubjectCode>WT04</SubjectCode>
+                <SubjectName>Treatment request:footway</SubjectName>
+              </EnquirySubject>
+            </TypeOfService>
+            <EnquiryStatus>
+              <EnqStatusCode>ES01</EnqStatusCode>
+              <EnqStatusName>Raised</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES02</EnqStatusCode>
+              <EnqStatusName>Resolved at Entry Time</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES03</EnqStatusCode>
+              <EnqStatusName>Allocated to Action Officer</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES04</EnqStatusCode>
+              <EnqStatusName>Raised Again</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES05</EnqStatusCode>
+              <EnqStatusName>Under Investigation</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES07</EnqStatusCode>
+              <EnqStatusName>Resolved - Work Issued</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES09</EnqStatusCode>
+              <EnqStatusName>Resolved - No Action Required</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES11</EnqStatusCode>
+              <EnqStatusName>Resolved - Work in Programme</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES12</EnqStatusCode>
+              <EnqStatusName>Works Completed</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES13</EnqStatusCode>
+              <EnqStatusName>3rd Party Informed - Resolved</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES15</EnqStatusCode>
+              <EnqStatusName>3rd Party Informed - Check</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>ES16</EnqStatusCode>
+              <EnqStatusName>Other SC Section Informed</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE05</EnqStatusCode>
+              <EnqStatusName>Raised</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE10</EnqStatusCode>
+              <EnqStatusName>No Action Required</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE15</EnqStatusCode>
+              <EnqStatusName>Allocated to Action Officer</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE20</EnqStatusCode>
+              <EnqStatusName>Acknowledged</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE22</EnqStatusCode>
+              <EnqStatusName>Raised Again</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE25</EnqStatusCode>
+              <EnqStatusName>Under Investigation</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE28</EnqStatusCode>
+              <EnqStatusName>Draft response with Management</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE30</EnqStatusCode>
+              <EnqStatusName>Responded-Under Investigation</EnqStatusName>
+              <OutstandingFlag>true</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE35</EnqStatusCode>
+              <EnqStatusName>Responded-No Further Action</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE40</EnqStatusCode>
+              <EnqStatusName>Responded-Works Issued</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE45</EnqStatusCode>
+              <EnqStatusName>Responded-Prioritised Request</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE50</EnqStatusCode>
+              <EnqStatusName>Responded-Work in Programme</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryStatus>
+              <EnqStatusCode>TE55</EnqStatusCode>
+              <EnqStatusName>Responded-Subject to Council</EnqStatusName>
+              <OutstandingFlag>false</OutstandingFlag>
+            </EnquiryStatus>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0018</EnqAttribTypeCode>
+              <EnqAttribTypeName>Abandoned since</EnqAttribTypeName>
+              <EnqAttribTypeFlag>D</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0004</EnqAttribTypeCode>
+              <EnqAttribTypeName>Argument</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0007</EnqAttribTypeCode>
+              <EnqAttribTypeName>Carbon Copies</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0015</EnqAttribTypeCode>
+              <EnqAttribTypeName>Colour</EnqAttribTypeName>
+              <EnqAttribTypeFlag>P</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C00</EnqAttribValueCode>
+                <EnqAttribValueName>Black</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C06</EnqAttribValueCode>
+                <EnqAttribValueName>Blue</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C01</EnqAttribValueCode>
+                <EnqAttribValueName>Brown</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C10</EnqAttribValueCode>
+                <EnqAttribValueName>Gold</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C05</EnqAttribValueCode>
+                <EnqAttribValueName>Green</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C08</EnqAttribValueCode>
+                <EnqAttribValueName>Grey</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C03</EnqAttribValueCode>
+                <EnqAttribValueName>Orange</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C99</EnqAttribValueCode>
+                <EnqAttribValueName>Other</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C02</EnqAttribValueCode>
+                <EnqAttribValueName>Red</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C11</EnqAttribValueCode>
+                <EnqAttribValueName>Silver</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C07</EnqAttribValueCode>
+                <EnqAttribValueName>Violet</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C09</EnqAttribValueCode>
+                <EnqAttribValueName>White</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>C04</EnqAttribValueCode>
+                <EnqAttribValueName>Yellow</EnqAttribValueName>
+              </EnquiryAttributeValue>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0021</EnqAttribTypeCode>
+              <EnqAttribTypeName>Comments</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0005</EnqAttribTypeCode>
+              <EnqAttribTypeName>Conclusions</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0020</EnqAttribTypeCode>
+              <EnqAttribTypeName>Date resolved</EnqAttribTypeName>
+              <EnqAttribTypeFlag>D</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0019</EnqAttribTypeCode>
+              <EnqAttribTypeName>Date sent</EnqAttribTypeName>
+              <EnqAttribTypeFlag>D</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0017</EnqAttribTypeCode>
+              <EnqAttribTypeName>Description of damage</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0002</EnqAttribTypeCode>
+              <EnqAttribTypeName>Enquiry Summary</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0006</EnqAttribTypeCode>
+              <EnqAttribTypeName>Forwarded by</EnqAttribTypeName>
+              <EnqAttribTypeFlag>P</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>BDC</EnqAttribValueCode>
+                <EnqAttribValueName>Bridgnorth DC</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>CLLR</EnqAttribValueCode>
+                <EnqAttribValueName>County Councillor</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>DKMP</EnqAttribValueCode>
+                <EnqAttribValueName>Daniel Kawczynski MP</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>HM</EnqAttribValueCode>
+                <EnqAttribValueName>Highways Maintenance</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>NSDC</EnqAttribValueCode>
+                <EnqAttribValueName>North Shropshire DC</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>NF</EnqAttribValueCode>
+                <EnqAttribValueName>Not Forwarded</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>OBC</EnqAttribValueCode>
+                <EnqAttribValueName>Oswestry BC</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>CSC</EnqAttribValueCode>
+                <EnqAttribValueName>our Customer Service Centre</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>OPMP</EnqAttribValueCode>
+                <EnqAttribValueName>Owen Paterson MP</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>PDMP</EnqAttribValueCode>
+                <EnqAttribValueName>Phillip Dunne MP</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>SABC</EnqAttribValueCode>
+                <EnqAttribValueName>Shrewsbury &amp; Atcham BC</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>SSDC</EnqAttribValueCode>
+                <EnqAttribValueName>South Shropshire DC</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>PC</EnqAttribValueCode>
+                <EnqAttribValueName>your local Parish Council</EnqAttribValueName>
+              </EnquiryAttributeValue>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0001</EnqAttribTypeCode>
+              <EnqAttribTypeName>Location</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0014</EnqAttribTypeCode>
+              <EnqAttribTypeName>Make / Model of car</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0009</EnqAttribTypeCode>
+              <EnqAttribTypeName>Multiple Request</EnqAttribTypeName>
+              <EnqAttribTypeFlag>P</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>NO</EnqAttribValueCode>
+                <EnqAttribValueName>No</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>YES</EnqAttribValueCode>
+                <EnqAttribValueName>Yes</EnqAttribValueName>
+              </EnquiryAttributeValue>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0013</EnqAttribTypeCode>
+              <EnqAttribTypeName>Number of items</EnqAttribTypeName>
+              <EnqAttribTypeFlag>N</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+              <EnqAttribTypeMin>1</EnqAttribTypeMin>
+              <EnqAttribTypeMax>999</EnqAttribTypeMax>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0003</EnqAttribTypeCode>
+              <EnqAttribTypeName>Outcome</EnqAttribTypeName>
+              <EnqAttribTypeFlag>P</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>ACC</EnqAttribValueCode>
+                <EnqAttribValueName>Accept</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>REJ</EnqAttribValueCode>
+                <EnqAttribValueName>Reject</EnqAttribValueName>
+              </EnquiryAttributeValue>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0011</EnqAttribTypeCode>
+              <EnqAttribTypeName>Reference No.</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0016</EnqAttribTypeCode>
+              <EnqAttribTypeName>Registration Mark</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0010</EnqAttribTypeCode>
+              <EnqAttribTypeName>Respond via</EnqAttribTypeName>
+              <EnqAttribTypeFlag>P</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>AD</EnqAttribValueCode>
+                <EnqAttribValueName>Assistant Director</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>CE</EnqAttribValueCode>
+                <EnqAttribValueName>Chief Executive</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>DD</EnqAttribValueCode>
+                <EnqAttribValueName>Director</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>GM</EnqAttribValueCode>
+                <EnqAttribValueName>Group Manager</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>OT</EnqAttribValueCode>
+                <EnqAttribValueName>Other SCC Section</EnqAttribValueName>
+              </EnquiryAttributeValue>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0008</EnqAttribTypeCode>
+              <EnqAttribTypeName>Small Job</EnqAttribTypeName>
+              <EnqAttribTypeFlag>P</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>NO</EnqAttribValueCode>
+                <EnqAttribValueName>No</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>YES</EnqAttribValueCode>
+                <EnqAttribValueName>Yes</EnqAttribValueName>
+              </EnquiryAttributeValue>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0012</EnqAttribTypeCode>
+              <EnqAttribTypeName>Type of item</EnqAttribTypeName>
+              <EnqAttribTypeFlag>P</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>BG</EnqAttribValueCode>
+                <EnqAttribValueName>Brown Goods</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>BW</EnqAttribValueCode>
+                <EnqAttribValueName>Building Waste</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>FR</EnqAttribValueCode>
+                <EnqAttribValueName>Furniture</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>GW</EnqAttribValueCode>
+                <EnqAttribValueName>Garden Waste</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>HF</EnqAttribValueCode>
+                <EnqAttribValueName>Household Refuse</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>TY</EnqAttribValueCode>
+                <EnqAttribValueName>Tyres</EnqAttribValueName>
+              </EnquiryAttributeValue>
+              <EnquiryAttributeValue>
+                <EnqAttribValueCode>EG</EnqAttribValueCode>
+                <EnqAttribValueName>White Goods</EnqAttribValueName>
+              </EnquiryAttributeValue>
+            </EnquiryAttributeType>
+            <EnquiryAttributeType>
+              <EnqAttribTypeCode>0022</EnqAttribTypeCode>
+              <EnqAttribTypeName>Witness Information</EnqAttribTypeName>
+              <EnqAttribTypeFlag>T</EnqAttribTypeFlag>
+              <MandatoryFlag>false</MandatoryFlag>
+            </EnquiryAttributeType>
+            <EnquiryClass>
+              <EnquiryClassCode>EC01</EnquiryClassCode>
+              <EnquiryClassName>Compliment</EnquiryClassName>
+            </EnquiryClass>
+            <EnquiryClass>
+              <EnquiryClassCode>EC02</EnquiryClassCode>
+              <EnquiryClassName>Enquiry</EnquiryClassName>
+            </EnquiryClass>
+            <EnquiryClass>
+              <EnquiryClassCode>EC03</EnquiryClassCode>
+              <EnquiryClassName>Observation</EnquiryClassName>
+            </EnquiryClass>
+            <EnquiryClass>
+              <EnquiryClassCode>EC05</EnquiryClassCode>
+              <EnquiryClassName>Formal Complaint</EnquiryClassName>
+            </EnquiryClass>
+            <EnquiryClass>
+              <EnquiryClassCode>EC06</EnquiryClassCode>
+              <EnquiryClassName>Licence Application</EnquiryClassName>
+            </EnquiryClass>
+            <EnquiryClass>
+              <EnquiryClassCode>EC07</EnquiryClassCode>
+              <EnquiryClassName>Invitation</EnquiryClassName>
+            </EnquiryClass>
+          </GetEnquiryLookupsResponse>
+        </OperationResponse>
+      </Response>
+    </ProcessOperationsResult>
+  </soap:Body>
+</soap:Envelope>
+
+
+
+

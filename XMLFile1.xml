@@ -1,0 +1,8 @@
+﻿<IntegrationRequest>
+  <ServiceType>Highways</ServiceType>
+  <RequestType>GetEnquiryLookupsRequest</RequestType>
+  <SourceSystem>CRM</SourceSystem>
+  <SourceReference>27710258-6904-40AE-BED9-B92EB97A26B3</SourceReference>
+  <MessageDate>2017-07-02T10:30:00</MessageDate>
+  <MessageData />
+</IntegrationRequest>
